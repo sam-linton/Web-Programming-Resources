@@ -1,0 +1,90 @@
+* {
+  box-sizing:border-box;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+body {
+  background-color: #999999b9;
+  color: #444444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2.0rem;
+  font-weight: 100;
+  margin: 0rem 0rem 0.5rem 0rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 100;
+}
+
+a {
+  color: rgba(40, 26, 240, 0.863);
+  text-decoration: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: #f3f3f3;
+  padding: 0rem 0rem;
+}
+
+.hero {
+  background-color:#0d2cdb79;
+  color: aliceblue;
+  width: 100%;
+  padding: 2rem 1rem 1rem 1rem;
+  text-align: center;
+}
+
+.block {
+  height: 10px;
+  background-color:#0d2cdbc7;
+}
+
+section {
+  padding: 2rem 2rem 1rem 1.5rem;
+}
+
+
+/* -- Tables --*/
+.table {
+  color: #444444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  border: 1px solid#bbbbbb;
+  width: 80%;
+  margin: auto;
+}
+
+.table-item,
+.table-heading {
+  border: 1px solid #bbbbbb;
+  text-align: left;
+  padding: 0.5rem 1rem;
+}
+
+.table tr:nth-child(even) {
+  background-color: #dddddd;
+  /* transition-duration: 1.0; */
+}
+
+.table tr:hover {
+  background-color: #bbbbbb;
+}
+
+caption {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: left;
+}
+
